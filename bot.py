@@ -9,7 +9,7 @@ dp = Dispatcher(bot)
 
 @dp.message_handler
 async def start(message:types.Message):
-  await message.reply("Hello, jopa ebanaya")
+  await message.reply("Hello, world!")
 
 @dp.message_handler()
 async def repeat(message:types.Message):
